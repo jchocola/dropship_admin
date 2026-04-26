@@ -1,7 +1,8 @@
 import 'dart:developer';
 
 import 'package:dropship_admin/core/icon/icons.dart';
-import 'package:dropship_admin/features/feature_products/presentations/widgets/product_count_tag.dart';
+import 'package:dropship_admin/features/feature_products/presentations/widgets/product_count_tags.dart';
+import 'package:dropship_admin/shared/count_tag.dart';
 import 'package:dropship_admin/features/feature_products/presentations/widgets/product_info_card.dart';
 import 'package:dropship_admin/features/feature_products/presentations/widgets/product_search_filter_widget.dart';
 import 'package:dropship_admin/features/feature_products/presentations/widgets/products_table_widget.dart';
