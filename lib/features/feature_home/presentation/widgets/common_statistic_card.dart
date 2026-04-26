@@ -3,7 +3,13 @@ import 'package:shadcn_ui/shadcn_ui.dart';
 import 'package:sizer/sizer.dart';
 
 class CommonStatisticCard extends StatelessWidget {
-  const CommonStatisticCard({super.key, this.icon = Icons.abc, this.title = 'Title', this.value = 'Value', this.iconColor = Colors.black54});
+  const CommonStatisticCard({
+    super.key,
+    this.icon = Icons.abc,
+    this.title = 'Title',
+    this.value = 'Value',
+    this.iconColor = Colors.black54,
+  });
   final String title;
   final String value;
   final IconData icon;
@@ -13,13 +19,7 @@ class CommonStatisticCard extends StatelessWidget {
     return ShadCard(
       width: 20.w,
       height: 15.h,
-      child: Column(
-        children: [
-          Icon(icon),
-          Text(value),
-          Text(title),
-        ],
-      ),
+      child: Column(children: [Icon(icon), Text(value), Text(title)]),
     );
   }
 }
