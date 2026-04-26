@@ -48,7 +48,7 @@ class _AdminShellState extends State<AdminShell> {
                   ),
                   // Add your sidebar items here
                   AdminShellMenuSideButton(
-                    onTap: () => context.go(LocationConfig.currentShop),
+                    onTap: () => context.go(LocationConfig.home),
                     showFullIcon: !_isSidebarCollapsed,
                     leading: ShadAvatar(
                       'https://app.requestly.io/delay/2000/avatars.githubusercontent.com/u/124599?v=4',
@@ -72,13 +72,13 @@ class _AdminShellState extends State<AdminShell> {
                   ),
 
                   Divider(),
-                         AdminShellMenuSideButton(
-                      onTap: () => context.go(LocationConfig.home),
-                      leading: Icon(AppIcons.homeIcon),
-                      title: 'Home',
-                      showFullIcon: !_isSidebarCollapsed,
-                      isPicked: currentLocation == LocationConfig.home,
-                    ),
+                    //      AdminShellMenuSideButton(
+                    //   onTap: () => context.go(LocationConfig.home),
+                    //   leading: Icon(AppIcons.homeIcon),
+                    //   title: 'Home',
+                    //   showFullIcon: !_isSidebarCollapsed,
+                    //   isPicked: currentLocation == LocationConfig.home,
+                    // ),
                     AdminShellMenuSideButton(
                       onTap: () => context.go(LocationConfig.orders),
                       leading: Icon(AppIcons.orderIcon),
