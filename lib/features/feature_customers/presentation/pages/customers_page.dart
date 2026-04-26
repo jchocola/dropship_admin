@@ -1,5 +1,5 @@
 import 'package:dropship_admin/features/feature_customers/presentation/pages/customer_info_sheet.dart';
-import 'package:dropship_admin/features/feature_customers/presentation/pages/customer_search_filter_widget.dart';
+import 'package:dropship_admin/features/feature_customers/presentation/widgets/customer_search_filter_widget.dart';
 import 'package:dropship_admin/features/feature_customers/presentation/widgets/customers_count_tags.dart';
 import 'package:dropship_admin/features/feature_customers/presentation/widgets/customers_list_widget.dart';
 import 'package:flutter/material.dart';
